@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stand : MonoBehaviour
+public class Box : MonoBehaviour
 {
-    public int amountOfBoxes = 0;
+    //Variable de que si caja va a ser agarrada por un robot o no
+    public bool grabed = false;
     // Start is called before the first frame update
     void Start()
     {
